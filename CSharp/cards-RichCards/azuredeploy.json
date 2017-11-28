@@ -50,7 +50,7 @@
   },
   "variables": {
     "storageAccountType": "Standard_LRS",
-    "storageAccountName": "[concat(parameters('siteName'), '-stg')]"
+    "storageAccountName": "[concat(parameters('siteName'), 'stg')]"
   },
   "resources": [
     {
@@ -121,6 +121,26 @@
           }
         }
           ]
+    },
+    {
+      "apiVersion": "2017-12-01",
+      "type": "Microsoft.BotService/botServices",
+      "name": "[parameters('siteName')]",
+      "location": "global",
+      "kind": "sdk",
+      "sku": {
+          "name": "[parameters('sku')]"
+      },
+      "properties": {
+          "name": "[parameters('siteName')]",
+          "displayName": "[parameters('siteName')]",
+          "endpoint": "https://foobar.com/api",
+          "msaAppId": "[parameters('MicrosoftAppId')]"
+      },
+      "dependsOn": [
+          "[resourceId('Microsoft.Storage/storageAccounts/', variables('storageAccountName'))]",
+          "[resourceId('Microsoft.Web/sites/', parameters('siteName'))]"
+      ]
     }
   ]
 }
