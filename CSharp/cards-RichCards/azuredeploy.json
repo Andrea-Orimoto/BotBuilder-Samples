@@ -134,8 +134,10 @@
       "properties": {
           "name": "[parameters('siteName')]",
           "displayName": "[parameters('siteName')]",
-          "endpoint": "https://foobar.com/api",
-          "msaAppId": "[parameters('MicrosoftAppId')]"
+          "endpoint": "https://foo.azurewebsites.net/api/messages",
+          "msaAppId": "[parameters('MicrosoftAppId')]",
+          "developerAppInsightsApplicationId": "foo",
+          "developerAppInsightKey": "bar"
       },
       "dependsOn": [
           "[resourceId('Microsoft.Storage/storageAccounts/', variables('storageAccountName'))]",
