@@ -68,7 +68,7 @@ Skype Calling | A sample bot showing how to use the Skype Bot Plaform for Callin
 [Deploy Node/SendAttachment]: https://azuredeploy.net/?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/Node/core-SendAttachment
 [Deploy CSharp/ReceiveAttachment]: https://azuredeploy.net?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/CSharp/core-ReceiveAttachment
 [Deploy Node/ReceiveAttachment]: https://azuredeploy.net/?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/Node/core-ReceiveAttachment
-[Deploy CSharp/RichCards]: https://azuredeploy.net?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/CSharp/cards-RichCards
+[Deploy CSharp/RichCards]: https://azuredeploy.net?repository=https://github.com/Andrea-Orimoto/BotBuilder-Samples/tree/master/CSharp/cards-RichCards
 [Deploy Node/RichCards]: https://azuredeploy.net/?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/Node/cards-RichCards
 [Deploy CSharp/CarouselCards]: https://azuredeploy.net?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/CSharp/cards-CarouselCards
 [Deploy Node/CarouselCards]: https://azuredeploy.net/?repository=https://github.com/microsoft/BotBuilder-Samples/tree/master/Node/cards-CarouselCards
