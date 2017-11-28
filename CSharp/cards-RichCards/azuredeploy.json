@@ -129,7 +129,7 @@
       "location": "global",
       "kind": "sdk",
       "sku": {
-          "name": "[parameters('sku')]"
+          "name": "F0"
       },
       "properties": {
           "name": "[parameters('siteName')]",
